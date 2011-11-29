@@ -4,7 +4,7 @@
  * License: MIT License
  */
 define(["src/domModule"], function (module) {
-    // #qunit-fixture" はreset時に初期化される
+    // #qunit-fixture はreset時に初期化される
     test("append", function () {
         var fixture = document.getElementById("qunit-fixture");
         var addElem = document.createElement("div");
